@@ -1,6 +1,6 @@
 <p align="center">
 
-<h2 align="left">Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models</h1>
+<h2 align="left">Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models [Neurips 2025]</h1>
   <p align="left">
     <a href="https://zhanxy.xyz/" rel="external nofollow noopener" target="_blank"><strong>Xiaoyu Zhan*</strong></a>
     ·
@@ -38,7 +38,7 @@
 
 </p>
 
-### This is the official implementation of the paper "Activate Spatial Reasoning Ability of Multimodal Large Language Models"
+### This is the official implementation of the paper "Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models"
 
 <br>
 
@@ -73,9 +73,14 @@ To be continued
 ## 🚀 SFT Training
 
 ### 1. Download Preprocessed Data and Model
+SFT Data:
 [SFT-data](https://huggingface.co/datasets/INno0o/Viewpoint-100K)
+
+Base Model in huggingface:
 [Qwen-2.5-VL Model](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
 
+Also in modelscope:
+[modoelscope](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)
 ### 2. Train Model
 
 We utilized LLaMA Factory, one of the most prevalent instruction-tuning frameworks, for model fine-tuning. First, you need to refer to the project repository at [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to complete the installation, and then follow the official tutorials to execute the training process.

@@ -1,0 +1,35 @@
+{
+    "model": {
+        "actial": {
+            "class": "ActialChat",
+            "model": "actial-r1-Qwen2.5-VL-7B",
+            "model_path": "/root/.cache/modelscope/hub/models/Qwen/Qwen2.5-VL-7B-Instruct",
+            "temperature": 0,
+            "img_detail": "high",
+            "system_prompt": "You are Actial, a helpful assistant with excellent reasoning ability. A user asks you a question, and you should try to solve it. You should first think about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think><answer> answer here </answer>",
+            "post_process": true,
+            "top_p": 0.95
+        }
+
+    },
+    "data": {
+
+        "Omni3DBench":{
+            "class": "Omni3DBench",
+            "dataset": "Omni3DBench"
+        },
+        "SpatialEval":{
+            "class": "ImageMCQDataset",
+            "dataset": "SpatialEval"
+        },
+        "MMSIBench_circular":{
+            "class": "ImageMCQDataset",
+            "dataset": "MMSIBench_circular"
+        },
+        "_3DSRBench":{
+            "class": "_3DSRBench",
+            "dataset": "_3DSRBench"
+        }
+    }
+}
+

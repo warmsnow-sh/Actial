@@ -1,0 +1,36 @@
+{
+    "model": {
+        "actial": {
+            "class": "Qwen2VLChat",
+            "model": "Qwen2.5-VL-7B-Instruct",
+            "model_path": "/root/.cache/modelscope/hub/models/Qwen/Qwen2.5-VL-7B-Instruct",
+            "temperature": 0,
+            "img_detail": "high",
+            "top_p": 0.95
+        }
+
+    },
+    "data": {
+        "MMSIBench_circular":{
+            "class": "ImageMCQDataset",
+            "dataset": "MMSIBench_circular"
+        },
+        "_3DSRBench":{
+            "class": "_3DSRBench",
+            "dataset": "_3DSRBench"
+        },
+        "BLINK":{
+            "class": "ImageMCQDataset",
+            "dataset": "BLINK"
+        },
+        "CV-Bench-2D":{
+            "class": "ImageMCQDataset",
+            "dataset": "CV-Bench-2D"
+        },
+        "CV-Bench-3D":{
+            "class": "ImageMCQDataset",
+            "dataset": "CV-Bench-3D"
+        }
+    }
+}
+

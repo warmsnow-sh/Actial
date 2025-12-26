@@ -46,15 +46,15 @@
 
 ## Overview
 
-[1 - Data](#Data)
-[2 - SFT Training](#sft)
-[3 - RL Training](#rl)
-[4 - Eval](#eval)
-[5 - Acknowledgments](#acknowledgments)
-[6 - Citation](#citation)
-[7 - Contact](#contact)
+- [1 - Data](#Data)
+- [2 - SFT Training](#sft)
+- [3 - RL Training](#rl)
+- [4 - Eval](#eval)
+- [5 - Acknowledgments](#acknowledgments)
+- [6 - Citation](#citation)
+- [7 - Contact](#contact)
 
-`<a id="Data"></a>`
+<a id="Data"></a>
 
 ## 📍 Data
 
@@ -68,7 +68,7 @@ You can also construct your own datasets. The raw data for our SFT stage is sour
 
 To be continued
 
-`<a id="sft"></a>`
+<a id="sft"></a>
 
 ## 🚀 SFT Training
 
@@ -82,7 +82,7 @@ We utilized LLaMA Factory, one of the most prevalent instruction-tuning framewor
 
 During the Supervised Fine-Tuning (SFT) phase, we configured the training with 2 epochs, a learning rate of 5e-6, a batch size of 128, and 50 warm-up steps.
 
-`<a id="rl"></a>`
+<a id="rl"></a>
 
 ## 🎯 RL Training
 
@@ -105,7 +105,7 @@ sh run/run_qwen2_5vl-7b_mix_500step.sh
 ```
 
 
-`<a id="eval"></a>`
+<a id="eval"></a>
 
 ## 🎨 Eval
 

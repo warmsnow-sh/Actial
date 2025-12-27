@@ -159,4 +159,4 @@ url={https://openreview.net/forum?id=jquTBzt3Av}
 
 ## Contact
 
-Zhan, Xiaoyu (zhanxy@smail.nju.edu.cn) and Hao, Sun (warm_snows@163.com).
+Zhan, Xiaoyu (zhanxy@smail.nju.edu.cn) and Sun, Hao (warm_snows@163.com).
